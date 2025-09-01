@@ -1,0 +1,18 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales de sistema
+*.DS_Store
+Thumbs.db
+
+# Archivos de backup
+*.bak
+*.tmp
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de Excel temporales
+~$*.xlsx
