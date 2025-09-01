@@ -1,4 +1,4 @@
-# Automatización de Operaciones del Agregador
+# Automatizacion de Operaciones del Agregador
 
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
