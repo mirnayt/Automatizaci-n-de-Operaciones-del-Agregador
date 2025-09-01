@@ -1,5 +1,11 @@
 # Automatización de Operaciones del Agregador
 
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![Excel](https://img.shields.io/badge/Excel-Macros-green?logo=microsoft-excel)
+
+
 Este proyecto tiene como objetivo **automatizar la gestión de operaciones de un agregador** (terminales de punto de venta, usuarios y transacciones).  
 La solución combina **Excel, Python y Power BI** para:
 
