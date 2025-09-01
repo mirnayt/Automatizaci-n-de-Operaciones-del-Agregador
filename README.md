@@ -15,7 +15,6 @@ La solución combina **Excel, Python y Power BI** para:
 - Analizar transacciones.  
 - Optimizar la toma de decisiones en las áreas financiera, comercial y operativa.  
 
----
 
 ## Estructura del repositorio
 
@@ -56,88 +55,94 @@ pip install pandas
 pip install openpyxl
 
 
-▶️ Uso
-1. Excel
+Uso
+1. Excel:
 
-Buscar una terminal en la hoja Menú ingresando el ID de TPV.
+- Buscar una terminal en la hoja Menú ingresando el ID de TPV.
 
-Actualizar ventas y pagos desde la macro en la hoja Detalles.
+- Actualizar ventas y pagos desde la macro en la hoja Detalles.
 
-Generar consolidado de operaciones con el botón Actualizar.
+- Generar consolidado de operaciones con el botón Actualizar.
 
-2. Python (Google Colab o local)
+2. Python (Google Colab o local):
 
-Subir archivo BD_TRANSACCIONES_PRUEBA.xlsx.
+- Subir archivo BD_TRANSACCIONES_PRUEBA.xlsx.
 
-Ejecutar Limpiar_transacciones.ipynb.
+- Ejecutar Limpiar_transacciones.ipynb.
 
-Generar un archivo limpio Transacciones_limpias.xlsx para usar en Power BI.
+- Generar un archivo limpio Transacciones_limpias.xlsx para usar en Power BI.
 
-3. Power BI
+3. Power BI:
 
-Importar Detalles.xlsx y el archivo limpio generado por Python.
+- Importar Detalles.xlsx y el archivo limpio generado por Python.
 
-Dar clic en Actualizar para refrescar datos.
+- Dar clic en Actualizar para refrescar datos.
 
 Consultar dashboards:
 
-Transacciones por cliente/operativa.
+- Transacciones por cliente/operativa.
 
-Ventas de TPVs por mes/vendedor.
+- Ventas de TPVs por mes/vendedor.
 
-Crecimiento mensual.
+- Crecimiento mensual.
 
-Control de comisiones.
+- Control de comisiones.
 
-Dashboards
+Dashboards:
 
 Los dashboards están en la carpeta dashboards/.
 Ábrelos con Power BI Desktop para ver las visualizaciones interactivas.
 
-Monitoreo de terminales
+Monitoreo de terminales:
+
 <img width="1319" height="707" alt="image" src="https://github.com/user-attachments/assets/bdf025cf-3b28-4374-b16f-dfa93e29456e" />
-Operaciones por usuario y ubicación
+
+Operaciones por usuario y ubicación:
+
 <img width="1282" height="725" alt="image" src="https://github.com/user-attachments/assets/14355723-edd4-46bb-b46d-f630291a7636" />
-Informe de Ventas por Operativa
+
+Informe de Ventas por Operativa:
+
 <img width="1231" height="653" alt="image" src="https://github.com/user-attachments/assets/09ab10b7-7c1d-4c02-8426-fd9c0d3f9511" /> <img width="1231" height="653" alt="image" src="https://github.com/user-attachments/assets/78ee55ad-cbf2-4847-8f67-ee5d978b72d3" />
-Ranking de usuarios operando
+
+Ranking de usuarios operando:
 <img width="1224" height="677" alt="image" src="https://github.com/user-attachments/assets/068ad4a4-cd8c-45cc-b5fc-b9e8e592f3a8" />
 Videos
 
 En la carpeta videos/ encontrarás demostraciones en formato .zip con las interacciones en Power BI.
 
-Resultados e Impacto
+Resultados e Impacto:
 
-Control total de inventario de terminales.
+- Control total de inventario de terminales.
 
-Seguimiento de pagos y comisiones de vendedores.
+- Seguimiento de pagos y comisiones de vendedores.
 
-Análisis de clientes activos/inactivos y estrategias de reactivación.
+- Análisis de clientes activos/inactivos y estrategias de reactivación.
 
-Reducción del tiempo en la manipulación de datos masivos.
+- Reducción del tiempo en la manipulación de datos masivos.
 
-Automatización con una sola persona a cargo.
+- Automatización con una sola persona a cargo.
 
-Tecnologías utilizadas
+Tecnologías utilizadas:
 
-Excel → Macros para inventario y gestión de TPVs.
+- Excel → Macros para inventario y gestión de TPVs.
 
-Python (Pandas, os, zipfile) → Limpieza y transformación de datos.
+- Python (Pandas, os, zipfile) → Limpieza y transformación de datos.
 
-Power BI → Dashboards interactivos y análisis financiero-operativo.
+- Power BI → Dashboards interactivos y análisis financiero-operativo.
 
-Próximos pasos
+Próximos pasos:
 
-Integrar base de datos SQL para almacenamiento centralizado.
+  - Integrar base de datos SQL para almacenamiento centralizado.
 
-Automatizar carga de datos en Power BI.
+  - Automatizar carga de datos en Power BI.
 
-Generar alertas automáticas sobre clientes inactivos o inventario bajo.
+  - Generar alertas automáticas sobre clientes inactivos o inventario bajo.
 
-Autor
+Autor:
 
-Nombre: Mirna Alaniz
+- Nombre: Mirna Alaniz
 
-Contacto: mirna.yt@gmail.com
+- Contacto: mirna.yt@gmail.com
 
-LinkedIn: Mirna Alaniz | www.linkedin.com/in/mirna-alaniz-0b979214b
+- LinkedIn: Mirna Alaniz | www.linkedin.com/in/mirna-alaniz-0b979214b
