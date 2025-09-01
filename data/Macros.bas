@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 'MACROS QUE AYUDA A TRAER LA INFORMACION EN LA PAGINA DE MENU
 
 Sub actualicacion_caja_borrador()
@@ -24,7 +24,7 @@ Sub actualicacion_caja_borrador()
     ' donde se encuentra la terminal (key)(ejemplo=buscarv(terminal)
         terminal = Sheets("MENU").Range("E3")
         
-    'Se aplica la función buscarv
+    'Se aplica la funciÃ³n buscarv
         idterminal = Application.VLookup(terminal, rango, 2, False)
         
         
@@ -67,7 +67,7 @@ Sub actualicacion_caja()
     ' donde se encuentra la terminal (key)(ejemplo=buscarv(terminal)
         terminal = Sheets("MENU").Range("E3")
         
-    'Se aplica la función buscarv
+    'Se aplica la funciÃ³n buscarv
         caja = Application.VLookup(terminal, rango, 2, False)
         
         
@@ -109,7 +109,7 @@ Sub actualicacion_modelo()
     ' donde se encuentra la terminal (key)
         terminal = Sheets("MENU").Range("E3")
         
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         modelo = Application.VLookup(terminal, rango, 3, False)
         
         
@@ -142,7 +142,7 @@ Sub actualicacion_ubistock()
     ' donde se encuentra la terminal (key)
         terminal = Sheets("MENU").Range("E3")
         
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         ubistock = Application.VLookup(terminal, rango, 4, False)
         
         
@@ -175,7 +175,7 @@ Sub actualicacion_fechentrada()
         terminal = Sheets("MENU").Range("E3")
                 
         'Se aplica la funcion y se asigna a la variable buscada
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         fechentrada = Application.VLookup(terminal, rango, 5, False)
         
         
@@ -207,7 +207,7 @@ Sub actualicacion_estatus()
         terminal = Sheets("MENU").Range("E3")
                 
         'Se aplica la funcion y se asigna a la variable buscada
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         estatus = Application.VLookup(terminal, rango, 6, False)
         
         
@@ -239,7 +239,7 @@ Sub actualicacion_entrega()
         terminal = Sheets("MENU").Range("E3")
                 
         'Se aplica la funcion y se asigna a la variable buscada
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         entrega = Application.VLookup(terminal, rango, 7, False)
         
         
@@ -271,7 +271,7 @@ Sub actualicacion_ubioperacion()
         terminal = Sheets("MENU").Range("E3")
                 
         'Se aplica la funcion y se asigna a la variable buscada
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         ubioperacion = Application.VLookup(terminal, rango, 8, False)
         
         
@@ -303,7 +303,7 @@ Sub actualicacion_fechasalida()
         terminal = Sheets("MENU").Range("E3")
                 
         'Se aplica la funcion y se asigna a la variable buscada
-    'Se aplica la función buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
+    'Se aplica la funciÃ³n buscarv ' este codigo se corrige de acuerdo con las columna de la cual se extrae la info de la hoja pagos
         fechasalida = Application.VLookup(terminal, rango, 9, False)
         
         
@@ -357,7 +357,7 @@ End Sub
        
     'Set valor_buscado = Sheets("INVENTARIO").Cells.Find(What:=valor, After:=ActiveCell, LookIn:=xlFormulas, LookAt:=xlPart, SearchOrder:=xlByRows, SearchDirection:=xlNext, MatchCase:=False, SearchFormat:=False)
 
-    ' Verificar si se encontró el valor
+    ' Verificar si se encontrÃ³ el valor
     'If Not valor_buscado Is Nothing Then
         ' Seleccionar la celda encontrada
         'valor_buscado.Select
@@ -365,7 +365,7 @@ End Sub
         ' Pegar valores
         'Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     'Else
-        'MsgBox "El valor no se encontró en la hoja INVENTARIO."
+        'MsgBox "El valor no se encontrÃ³ en la hoja INVENTARIO."
     'End If
     
     
@@ -394,7 +394,7 @@ Sub ActEstatus()
         Sheets("INVENTARIO").Activate
         valor_buscado.Offset(, 5).PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     Else
-        MsgBox "El valor no se encontró en la hoja INVENTARIO."
+        MsgBox "El valor no se encontrÃ³ en la hoja INVENTARIO."
     End If
     
 End Sub
@@ -425,7 +425,7 @@ Sub ActEntrega()
         Sheets("INVENTARIO").Activate
         valor_buscado.Offset(, 6).PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     Else
-        MsgBox "El valor no se encontró en la hoja INVENTARIO."
+        MsgBox "El valor no se encontrÃ³ en la hoja INVENTARIO."
     End If
     
 End Sub
@@ -459,7 +459,7 @@ Sub ActUbicacion()
         Sheets("INVENTARIO").Activate
         valor_buscado.Offset(, 7).PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     Else
-        MsgBox "El valor no se encontró en la hoja INVENTARIO."
+        MsgBox "El valor no se encontrÃ³ en la hoja INVENTARIO."
     End If
     
 End Sub
@@ -490,7 +490,7 @@ Sub ActFechSalida()
         Sheets("INVENTARIO").Activate
         valor_buscado.Offset(, 8).PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     Else
-        MsgBox "El valor no se encontró en la hoja INVENTARIO."
+        MsgBox "El valor no se encontrÃ³ en la hoja INVENTARIO."
     End If
     
 End Sub
@@ -510,7 +510,7 @@ End Sub
 
 
 
-'MACROS QUE AYUDA A BUSCAR LA INFORMACIÓN EN LA HOJA DE PAGOS. SI NO ESTA SE AGREGA Y SI ESTA SE ACTUALIZA
+'MACROS QUE AYUDA A BUSCAR LA INFORMACIÃ“N EN LA HOJA DE PAGOS. SI NO ESTA SE AGREGA Y SI ESTA SE ACTUALIZA
 
 
 
@@ -528,7 +528,7 @@ Sub PgTerminal()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "B").End(xlUp).Row + 1
     Range("B" & ultimaFila).Select
@@ -554,7 +554,7 @@ Sub PgNomina()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "C").End(xlUp).Row
     Range("C" & ultimaFila).Select
@@ -579,7 +579,7 @@ Sub PgArea()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "D").End(xlUp).Row
     Range("D" & ultimaFila).Select
@@ -606,7 +606,7 @@ Sub PgComercial()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "E").End(xlUp).Row
     Range("E" & ultimaFila).Select
@@ -633,7 +633,7 @@ Sub PgEstPago()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "F").End(xlUp).Row
     Range("F" & ultimaFila).Select
@@ -658,7 +658,7 @@ Sub PgFecPago()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "G").End(xlUp).Row
     Range("G" & ultimaFila).Select
@@ -684,7 +684,7 @@ Sub PgCosto()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "H").End(xlUp).Row
     Range("H" & ultimaFila).Select
@@ -710,7 +710,7 @@ Sub PgFactura()
     ' Paso 3: Ir a la hoja "pagos"
     Sheets("PAGOS").Activate
     
-    ' Paso 4: Ir a la última fila de la columna B
+    ' Paso 4: Ir a la Ãºltima fila de la columna B
     Dim ultimaFila As Long
     ultimaFila = Cells(Rows.Count, "I").End(xlUp).Row
     Range("I" & ultimaFila).Select
@@ -1115,7 +1115,7 @@ End Sub
 
 
 
-'Sub CLABEBANCO() se quitara porque no tiene información esa columna
+'Sub CLABEBANCO() se quitara porque no tiene informaciÃ³n esa columna
 '
 
     'Dim cont As Long
