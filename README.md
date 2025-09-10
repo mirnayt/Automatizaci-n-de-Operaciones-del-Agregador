@@ -15,7 +15,7 @@ La solución combina **Excel, Python y Power BI** para:
 - Analizar transacciones.  
 - Optimizar la toma de decisiones en las áreas financiera, comercial y operativa.  
 
-
+```bash
 ## Estructura del repositorio
 
 Automatizacion-de-Operaciones-del-Agregador/
@@ -38,9 +38,13 @@ Automatizacion-de-Operaciones-del-Agregador/
 ├── videos/ # Demostraciones en video
 │ ├── POWER BI.zip
 │ └── POWER BI2.zip
+|
+├── assets/
+│   └── demo_powerbi.gif
 │
 └── README.md # Documentación principal
 
+```
 
 ## Instalación y Requisitos
 
@@ -53,7 +57,7 @@ Automatizacion-de-Operaciones-del-Agregador/
 ```bash
 pip install pandas
 pip install openpyxl
-
+```
 
 Uso
 1. Excel:
